@@ -13,9 +13,19 @@ const SearchItem = () => {
             <span className="siCancelOp">Free Cancellation</span>
             <span className="siCancelOpSubtitile">You can Cancel Later, so Lock in this great price today!</span>
         </div>
-        <div className="siDetails">Details</div>
+        <div className="siDetails">
+          <div className="siRating">
+            <span>Excellent</span>
+            <button>8.9</button>
+          </div>
+          <div className="siDetailsTexts">
+            <span className="siPrice">$123</span>
+            <span className="siTaxOp">Includes taxes and fees</span>
+            <button className="siCheckButton">see availability</button>
+          </div>
+        </div>
     </div>
   )
 }
 
-export default SearchItem
+export default SearchItem;
